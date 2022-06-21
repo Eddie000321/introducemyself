@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  }
+  
+.header {
+  padding: 30px;
+  text-align: left;
+  background: skyblue;
+  color: #333;
+  font-size: 30px;
+  }
+  
+  .nav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky; 
+  top: 0;
+  text-align: center;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 18px;
+    font-size: large;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+  .nav a.active {
+    background-color: #666;
+    color: white;
+}
+
+.container {   
+  width: 100%;
+  background-color: white;
+  margin:0 auto;
+}
+
+.photo-wrapper{
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 23%;
+
+}
+
+  .container img{
+      width: 250px;
+      height: 250px;
+      display: block;
+      float: left;
+      text-align: center;
+      margin-left: 35px;
+}
+
+.container h3{
+  padding-bottom: 10px;
+  margin: 0;
+  font-size: 30px;
+  position: top;   
+}
+
+.container p{
+  font-size: 20px;
+  line-height: 180%;
+}
+
+.content1{
+    width: 100%;
+     background-color: white;
+     padding: 25px;
+     padding-bottom: 40px;
+     border-bottom: solid;
+     border-width: 1px;
+     display: inline-block;
+     text-align: center;
+   }
+
+.content2{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+    border-bottom: solid;
+    border-width: 1px;
+    display: inline-block;
+     text-align: center;
+  }
+
+.content3{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+    border-bottom: solid;
+    border-width: 1px;
+    display: inline-block;
+     text-align: center;
+  }
+
+  .footer{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background: lightblue;
+    padding: 5px;
+  }
+
+  .img-wrapper{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .footer img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+ .footertext{
+    font-size: 15px;
+    padding: 10px;
+  }

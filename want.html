@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+      <title>2022211721 이재혁 기말과제</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="like_html.css"/>
+    </head>
+    <script>
+        function play1(){
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+        function pause1(){
+            var audio = document.getElementById("audio");
+            audio.pause();
+        }
+        function PopupWindow(){
+       window.open("Skyscraper.mp4","popup");
+    }
+    </script>
+
+    <body> 
+        <div class="header">
+            <h2>안녕하세요! <br>
+            </h2>
+        </div>
+
+        <div class="nav">
+            <a href="index.html"><h3>Home</h3></a>
+            <a href="aboutme.html"><h3>About me</h3></a>
+            <a href="like.html"><h3>Like</h3></a>
+            <a href="want.html"><h3>Want</h3></a>
+        </div>
+
+        <div class="container"> 
+
+            <div class="content1">
+                <div class="container img">
+                  <img src="city.jpg" alt="img">               
+                 </div>
+
+                 <div class="container text">
+                    <h4><button type="button" a href="javascript:PopupWindow()" value="PLAY" onclick="PopupWindow()">Play Video</button></h4>
+                    <p>ios 개발자가 되고 싶습니다. 더 나아가서는 프로젝트의 구성원이 아닌 기획 및 개발을 총괄하는 사람이 되고 싶습니다.</p>
+                
+                </div>
+            </div>
+
+            <div class="content2">
+                <div class="container img">
+                    <img src="life.jpg" alt="img">               
+                </div>
+
+                <div class="container text">
+                    <h4><button type="button" value="PLAY" onclick="play1()">Play Music</button>
+                        <audio id="audio" src="music1.mp3"></audio>
+                        <button type="button" value="PAUSE" onclick="pause1()">Stop Music</button>
+                        <audio id="audio" src="music1.mp3"></audio></h4> 
+                    <p>한국뿐만이 아니라 전 세계 어디서든지 일하고 싶습니다. 능력을 펼치고 살아갈 수 있다고 생각이 드는 어디에서든지 살아갈 것입니다.</p>
+                </div>
+            </div>    
+
+            <div class="footer">
+                <div class="footer img-wrapper">
+                <div class="img">
+                    <a href="https://github.com/Eddie000321">
+                        <img src="github.png" alt="git">
+                     </a>    
+                </div>
+                
+                <div class="footertext">
+                copyright(c) 2022. 이재혁. All rights reserved. // Contect : <a href="mailto:leehauk321@gmail.com">Email</a>
+                </div>
+    
+                </div>
+            </div>
+        </body>
+    </html>
